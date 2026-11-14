@@ -1,0 +1,27 @@
+Both Comes from AbstractStringBuilder class both class 
+both are mutable but string is unmutable
+Stringbuilder-> Not Thread Safe 
+Stringbuffer-> it is thread safe 
+every other things are same , all methods everything 
+
+
+class Stringbuilder extends AbstractStringBuilder {
+    byte[] values;
+    int count;
+    //capacity increase with help of count
+    capacity=initial*2+2;
+}
+
+constructors
+new Stringbuilder();
+new Stringbuilder(size(int));
+new Stringbuilder("Java"); size-> 16+size(4);
+methods->
+append,insert,delete,replace,reverse,charAt,setCharAT,length,capacity,ensureCapacity,trimTosize,
+toString
+
+Stringbuilder and buffer doesnt override equals method.
+Stringbuffer->mutable+ thread safety 
+Builder->not thread safe 
+
+Builder is very fast then Buffer 
