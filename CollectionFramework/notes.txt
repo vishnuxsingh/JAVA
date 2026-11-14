@@ -1,0 +1,8 @@
+Collection is an interface, 
+while Collections is a utility class containing methods such as sort(), reverse() and synchronizedList().
+The **Java Collection Framework (JCF)** is a set of predefined interfaces 
+and classes used to store, manage, and manipulate groups of objects efficiently.
+It provides ready-made data structures like `ArrayList`, `LinkedList`,
+`HashSet`, `TreeSet`, `HashMap`, and `PriorityQueue`.
+It reduces coding effort by providing reusable data structures 
+and built-in operations such as insertion, deletion, searching, and sorting.

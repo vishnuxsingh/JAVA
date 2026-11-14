@@ -2,10 +2,15 @@ Wildcards in Java Generics are represented by the ? symbol
 and are used when we don't know the exact data type. 
 They make generic methods and collections more flexible. 
 Java provides three types of wildcards: Unbounded (?),
-Upper Bounded (? extends Type), and Lower Bounded (? super Type). 
+Upper Bounded (? extends Type)(reading), and Lower Bounded (? super Type)(writing). 
 They are mainly used to achieve flexibility while maintaining type safety.
+pecs rule-> producer should use entends consumer should use super.
+
 
 Generics allow us to define a specific type using type parameters like T,
 whereas wildcards (?) allow us to work with an unknown type.
 Generics are used to create reusable, type-safe classes and methods,
 while wildcards provide flexibility when accepting different generic types.
+
+when <T> when <?>
+
