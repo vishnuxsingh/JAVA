@@ -1,0 +1,38 @@
+abstraction->
+1. abstract class 
+2.interfaces -> it defines what an object can do without defining how it do 
+i.e. blueprint of behaviour
+Class in Java: A class is a blueprint or template used to define the properties
+ (variables) and behaviours (methods) of objects.
+
+Object in Java: An object is an instance of a class that has its own 
+state (data) and behaviour (methods). It is created using the new keyword.
+
+
+extends-> abstraction
+implements-> interfaces
+interface k andar value constant hi define hogi 
+
+types ->
+
+we was not able to define methods in interface but after java 8 we can define 
+method inside interface using default keyword 
+
+interface vehicle {
+    default void drive() {
+        System.out("driving");
+    }
+}
+class car ......{
+    @override 
+    public void drive(){
+
+    }
+}
+
+Diamond problem->
+can be solved using interface we have 3 interface (a,b,c) b and c are implememnt a d can implement function
+becuase we dont have declarstion in b and c 
+multiple inheritance is possible because of this 
+
+super refers to the parent object.

@@ -1,0 +1,31 @@
+A String in Java is a sequence of characters used to store text. 
+It is a predefined class available in the java.lang package. 
+Strings are immutable, meaning their values cannot be changed once created.
+String literals are stored in the String Constant Pool to optimize memory usage.
+
+string literals-> special place in heap called string pool in which string is stored 
+and can be reused.
+only compile time constants goes to string pool runtime created goes to heap.
+
+if created string using literla 
+string s2=new string("Hello")
+then hello will created in string pool and heap both 
+
+
+public final class String {
+    private final char[] values; before java 8 
+   // now instead of char[] array there is byte[] array;
+    private final byte coder; 0 or 1 ascii limit k andar aate h toh 1(utf16) nahi toh 0(latin1)
+    private int hash; hashcode is stored here 
+
+}
+
+string optimization->
+   1. string Pool
+   2. char[] array converted to byte[] array
+   3.caching the hash values 
+
+   we can also pass character array in string 
+   char[] arr={'1','b','b','d'};
+   String a=new String(arr);
+   String b=new String(Arr,0,2);

@@ -1,0 +1,24 @@
+1. What is the Object class in Java?
+The Object class is the root parent class of every class in Java.
+It belongs to the java.lang package.
+This means every Java class directly or indirectly inherits the Object class.
+
+writte ->  class Student
+but actuaaly-> class Student extends Object
+core methods->
+equals()	Compares two objects return true or false reference hi match karta hai 
+hashCode()	Returns an integer hash value
+toString()	Returns string representation of an object
+getClass() 
+cloning->
+clone()-> used to create copy of an object
+garbage collection-> 
+finalize()-> used by GC but it is depreciated but it is unsafe, unreliable ,unsafe 
+threads->
+wait()
+notify()
+notifyall()
+
+
+object is not parent of primptives and cant use tostring , equals on these 
+but non primptives are having object class as there parent 

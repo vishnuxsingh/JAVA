@@ -1,0 +1,51 @@
+types of IO 
+console IO 
+FILE IO
+NETWORK IO 
+MEMORY IO 
+
+
+1. console IO 
+System.out.println
+system is a 
+pritn stream->out is a variable in this which are initializing 
+object of print stream class a calling method println of printstream 
+
+
+Class System {
+    private Static final printstream out = null;
+}
+println is method in printstream 
+pritn stream-> println,print,printf
+out ki jagah err bhi use kar sakte hain 
+
+in variable is also in System class used for input and thats type of inputStream
+
+private Static final inputStream in = null;
+
+stream = flow of data 
+1. input stream(read)-> in program
+2. output stream(write)-> out of program 
+both are java abstract class only telling not will explain 
+inputStream-> abstract class and follwing extends this   read();
+    fileInputStream
+    byteArrayInputStream
+    BufferedInputStream
+    dataInputStream
+output stream->  write();
+     fileOutputStream
+     byteArrayOutputStream
+    BufferedOutputStream
+    printStream
+
+BufferedReader in Java is a class used to read text efficiently from an input source (like a keyboard or file).
+It reads data in chunks (buffer) instead of reading one character at a time, making input faster.
+
+
+scanner expects a system class object (System.in)
+
+scanner-> readable interface
+scanner works based on tokenization 
+Scanner meethods - > (sc.next.sc.NextInt,sc.nextDouble etc);
+scanner class is slow then BufferedReader
+because scanner uses tokens,regix, type conversion a lot of things 

@@ -1,0 +1,35 @@
+type of inner class
+1. static nested 
+class outer {
+    static class inner {
+        
+    }
+}
+if inner class is static then that can only accept static vars of outer clss
+use case of nested static class 
+1. builder design pattern
+2.as helper class for outer 
+
+2. inner class
+
+outer outer = new outer();
+outer.ineer inner= new outer.new inner();
+
+anonymous class 
+person pr= new person(){
+    @override
+    void introduce() {
+        Sout("Hi i am a person");
+    }
+}
+Types of Nested Classes
+1. Static Nested Class — Declared using the static keyword; can directly access only the outer class's static members.
+2. Non-static Inner Class — Associated with an instance of the outer class; can access its instance members.
+3. Local Inner Class — Declared inside a method or block.
+4. Anonymous Inner Class — A class without a name, typically used for one-time implementations.
+
+Use Cases
+- Encapsulation: Keep helper classes hidden inside the class that uses them.
+- Logical grouping: Group closely related classes together.
+- Event handling: Use anonymous classes for callbacks or listeners.
+- Static utilities: Use static nested classes for helper logic that doesn't need an outer object.

@@ -1,0 +1,12 @@
+Enum in Java
+Definition: Enum (Enumeration) is a special data type in Java 
+used to define a fixed set of predefined constants.
+
+Why do we need it?
+- Provides type safety.
+- Prevents invalid values.
+- Improves code readability.
+- Useful for fixed values like days, roles, order status, payment status.
+
+"Enum is used to represent a fixed set of constants 
+while providing type safety and preventing invalid values."

@@ -1,0 +1,14 @@
+Immuatble class
+Immuatble means cant chnage the value of variables
+inside any object or class
+Rules of Immuatble->
+marks my class as final 
+use private variable and final 
+no setters 
+still cant fully immutable with these 
+
+
+so for that we have to make defensive copy (deep copy)
+and that will make immutable class
+this.college= new college(c.name=x,c.age=20);
+instead of this.college=college;
