@@ -29,3 +29,47 @@ string optimization->
    char[] arr={'1','b','b','d'};
    String a=new String(arr);
    String b=new String(Arr,0,2);
+
+
+we can also pass strinBuilder and buffer in string as well
+new String()
+new String(string)
+new String(char[])
+new String(byte[])
+new String(Stringbuffer)
+new String(strinBuilder)
+
+there are a lot of methods in string 
+isBlank vs isEmpty
+isBlank also check for blank space isEmpty doesnt
+character access
+charAT,tocharArray
+comparision
+equals,equalsIgnoreCase,compareTo(lexographical) gives integer op -ve,0,+ve
+
+searching->
+contains,indexOf,LastIndexOf
+
+transform,extract->
+subString(start(include),end(exclude));
+toUpperCase,toLowerCase,triM() remove side spaces not center,
+s1.strip()-> if character going out of ascii value 
+s1.repeat(count);
+s1.replace('i','o');
+s1.replaceAll('i','o');
+s1.split(",");
+string.join("-","a","b","c");
+
+//conversion
+byte[] arr=b.getBytes();
+String a=new String(String.valueOf(65));
+
+//advance
+intern()-> takes string from heap to string pool and refers that 
+ String s1 = new String("Hello");
+        String s2= s1.intern();
+        System.out.println(s1==s2);
+format-> used to format the string
+String s1 = "Vishnu";
+        int s2 = 21;
+        System.out.println(String.format("My name is %s and age is %d", s1, s2 ));
