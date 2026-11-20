@@ -1,0 +1,37 @@
+lambda expression-?
+1. Multiple parameters 
+(a,b)-> a+b
+equivalent to int sum(int a ,int b){
+    retun a+b;
+}
+2.single parameter
+x-> x*x
+3. ()->Sout("HELLO")
+4. multi line lambda
+(a,b)->{
+    int sum=a+b;
+    return sum;
+}
+4 core interface->these are functional interface
+a.function
+b.consumer
+c.supplier
+d.predicate
+
+a. take i/p -> o/p 
+T->R
+b. 
+   T-> void
+c. 
+  void -> T
+d. 
+    T-> Boolean
+
+    we have primtpive family for all these like intFunctiom,LongFunction,DoubleFunction
+    if we have primptive to primptive
+    intUnaryOperator
+
+Method reference->
+list.forEach(System.out::println);
+className::MethodName
+

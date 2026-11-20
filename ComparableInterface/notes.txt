@@ -1,0 +1,5 @@
+this is used for compare objects 
+interface comparable<T> {
+    int compareTo(T o);
+}
+this is functional interface

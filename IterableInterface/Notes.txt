@@ -1,0 +1,13 @@
+The Iterable interface in Java is the root interface of the Collection Framework.
+It allows objects to be traversed or iterated using the enhanced for-each loop.
+It provides the iterator() method, which returns an Iterator to access elements one by one.
+
+iterator method is having next and hasnext.
+
+interface Iterable {
+    Iterator iterator();
+}
+interface Iterator{
+    hasnext();
+    next();
+}

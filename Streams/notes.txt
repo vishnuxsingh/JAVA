@@ -1,0 +1,11 @@
+streams are used for data procressing 
+
+we apply some set of ops and give output 
+.stream method come from collection framework and we can use on any collection
+return list of string of names of person salary > 50k;
+employee.stream()
+        .filter(x-> x > 50000)
+        .map(Employee::getName)
+        .sorted()
+        .toList()
+        
