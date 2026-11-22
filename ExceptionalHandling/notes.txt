@@ -1,0 +1,29 @@
+problem two types
+1.error->OutOfMemoryError,StackOverflowError can't be handle
+2.exception->recoverable/handleable abnormal condition that occurs during program execution.
+
+why exception handle ?
+
+
+we can handle using try catch 
+use risky code in try when there are chance of exception and handle it in 
+catch block.
+hierechy-> 
+Throwable se Error and exception aaata h 
+exception mai 3 message aate hai -> getMessage,printStackTrace,toString
+excetion-> runtime,checked
+runtime->IOexc,Sqlexc,clsssnotfound
+runtime-> nullpointer,Arithmatic,Indexoutofbound,IllegalArgument,ClassCastException
+
+throw-> throw new IllegalArgumentException("IllegalArgument");
+checked exception are handled by throws  
+ex-> 
+
+custom exception->
+
+  throw new InvalidAgeException("Age Can't be Negative");
+class InvalidAgeException extends Exception {
+    public InvalidAgeException(String message){
+        super(message);
+    }
+}

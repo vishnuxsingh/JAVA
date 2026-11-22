@@ -1,0 +1,21 @@
+Memory->
+1.Heap -> store all object,Garbage collection work here and clean memory 
+
+2.Method Area-> class level blue print/MEta Data,Static variables,methods
+
+3.Stack Memory-> exceution memory stores current executing Method
+
+4.Program Counter-> current instruction
+
+
+*-> Heap and Method Area are thread share 
+Stack and PC are thread specific
+
+
+jvm start-> class loading->main thread create(stack , pc memory create)-> main method exceution
+
+
+heap memory->objects,instance variables,arrays,strings.
+
+heap mem-> 2 part ypung gen(Eden,s0,21),old gen ,string pool these are 2 part in heap 
+old gen mai gc less frequrently run hota h young gen mai baar baar hota h 

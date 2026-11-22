@@ -1,0 +1,8 @@
+optional is used to null handling in java
+previosuly->
+   String name = getName(); //no null handling
+cuurent for null handling->
+    Optional<String> name=getName();
+empty String create->
+  String name=null; //wrong way 
+  Optional<String> name=Optional.empty();

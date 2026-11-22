@@ -2,10 +2,31 @@ streams are used for data procressing
 
 we apply some set of ops and give output 
 .stream method come from collection framework and we can use on any collection
+define-> stream is a tool for processing a sequence of data through a chain of operation.
 return list of string of names of person salary > 50k;
 employee.stream()
         .filter(x-> x > 50000)
         .map(Employee::getName)
         .sorted()
         .toList()
-        
+3 part of stream -> source , intermediate ops , terminal ops
+source-> collection,array,stream.of(),infinite stream 
+
+intermediate ops(also called transformation)-> 
+  filter(),map(function),sorted(),limit(),skip();
+in sabka return type bhi stream hai 
+
+terminal-> which gives o/p 
+forEach(),toList(),collect(),count(),findFirst();
+No terminal ops-> no stream executed
+
+infinite stream-->???
+if we dont know howmuch data we will get but we can specify a limit 
+ .limit(10);
+
+primptive stream->
+intStream,DoubleStream,LongStream
+can we changed from object to primptive using s.mapToint,s.mapToLong,s.mapToDouble
+
+parallel stream uses multiThreading 
+list.parallelStream();
