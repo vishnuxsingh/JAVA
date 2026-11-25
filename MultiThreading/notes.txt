@@ -1,0 +1,15 @@
+in multithreading we deal with multiple threads multiple thredas runs together 
+multiple process happens together 
+
+thread-> smallest sequence of instruction executed by cpu indepently.or a lighweight process.
+process-> program currently being executed .
+
+
+what is runnable interface() ?
+
+thread lifecycle ?
+
+
+thread Methods->
+thread.sleep();->Timed waiting
+t1.join()-> let the t1 finish first.
